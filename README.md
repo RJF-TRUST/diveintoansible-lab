@@ -6,7 +6,7 @@ The related code repository is available at - https://github.com/spurin/diveinto
 
 At present the course is available on Udemy at [https://www.udemy.com/course/diveintoansible](https://www.udemy.com/course/diveintoansible/?referralCode=28BBB7A1DCCD01BBA51F) and will be published by Packt on other platforms like O'Reilly towards the end of December 2020 or January 2021.
 
-If you experience any problems with the lab, please reach out to me direct, James Spurin, or flag an issue in the repository
+If you experience any problems with the lab, please reach out to me direct, jfan Spurin, or flag an issue in the repository
 
 ### Installation of Docker and Docker-Compose
 
@@ -19,9 +19,9 @@ Linux, will require the installation of Docker and Docker Compose
 
 I recommend that the lab environment is downloaded to your respective home directory, i.e. -
 
-* Mac     - /Users/james/diveintoansible-lab
-* Windows - C:\Users\james\diveintoansible-lab
-* Linux   - /home/james/diveintoansible-lab
+* Mac     - /Users/jfan/diveintoansible-lab
+* Windows - C:\Users\jfan\diveintoansible-lab
+* Linux   - /home/jfan/diveintoansible-lab
 
 On a Mac or Linux system, you should be able to clone the repository accordingly from a terminal whilst in your home directory with the following command -
 
@@ -38,40 +38,40 @@ Please verify that all of the lab files, are in the expected locations after eit
 Mac OS X -
 
 ```
-/Users/james/diveintoansible-lab/.env
-/Users/james/diveintoansible-lab/DiveIntoAnsible_Cover.png
-/Users/james/diveintoansible-lab/README.md
-/Users/james/diveintoansible-lab/docker-compose.yaml
-/Users/james/diveintoansible-lab/config/guest_name
-/Users/james/diveintoansible-lab/config/guest_passwd
-/Users/james/diveintoansible-lab/config/guest_shell
-/Users/james/diveintoansible-lab/config/root_passwd
+/Users/jfan/diveintoansible-lab/.env
+/Users/jfan/diveintoansible-lab/DiveIntoAnsible_Cover.png
+/Users/jfan/diveintoansible-lab/README.md
+/Users/jfan/diveintoansible-lab/docker-compose.yaml
+/Users/jfan/diveintoansible-lab/config/guest_name
+/Users/jfan/diveintoansible-lab/config/guest_passwd
+/Users/jfan/diveintoansible-lab/config/guest_shell
+/Users/jfan/diveintoansible-lab/config/root_passwd
 ```
 
 Windows -
 
 ```
-C:\Users\James\diveintoansible-lab\.env
-C:\Users\James\diveintoansible-lab\DiveIntoAnsible_Cover.png
-C:\Users\James\diveintoansible-lab\README.md
-C:\Users\James\diveintoansible-lab\docker-compose.yaml
-C:\Users\James\diveintoansible-lab\config\guest_name
-C:\Users\James\diveintoansible-lab\config\guest_passwd
-C:\Users\James\diveintoansible-lab\config\guest_shell
-C:\Users\James\diveintoansible-lab\config\root_passwd
+C:\Users\jfan\diveintoansible-lab\.env
+C:\Users\jfan\diveintoansible-lab\DiveIntoAnsible_Cover.png
+C:\Users\jfan\diveintoansible-lab\README.md
+C:\Users\jfan\diveintoansible-lab\docker-compose.yaml
+C:\Users\jfan\diveintoansible-lab\config\guest_name
+C:\Users\jfan\diveintoansible-lab\config\guest_passwd
+C:\Users\jfan\diveintoansible-lab\config\guest_shell
+C:\Users\jfan\diveintoansible-lab\config\root_passwd
 ```
 
 Linux -
 
 ```
-/home/james/diveintoansible-lab/.env
-/home/james/diveintoansible-lab/DiveIntoAnsible_Cover.png
-/home/james/diveintoansible-lab/README.md
-/home/james/diveintoansible-lab/docker-compose.yaml
-/home/james/diveintoansible-lab/config/guest_name
-/home/james/diveintoansible-lab/config/guest_passwd
-/home/james/diveintoansible-lab/config/guest_shell
-/home/james/diveintoansible-lab/config/root_passwd
+/home/jfan/diveintoansible-lab/.env
+/home/jfan/diveintoansible-lab/DiveIntoAnsible_Cover.png
+/home/jfan/diveintoansible-lab/README.md
+/home/jfan/diveintoansible-lab/docker-compose.yaml
+/home/jfan/diveintoansible-lab/config/guest_name
+/home/jfan/diveintoansible-lab/config/guest_passwd
+/home/jfan/diveintoansible-lab/config/guest_shell
+/home/jfan/diveintoansible-lab/config/root_passwd
 ```
 
 ### Configuration
@@ -84,30 +84,30 @@ Mac OS X -
 
 ```
 # Shared config volume
-CONFIG=/Users/james/diveintoansible-lab/config
+CONFIG=/Users/jfan/diveintoansible-lab/config
 
 # Shared home directories
-ANSIBLE_HOME=/Users/james/diveintoansible-lab/ansible_home
+ANSIBLE_HOME=/Users/jfan/diveintoansible-lab/ansible_home
 ```
 
-Windows (n.b. 'users' and the username (in my case this is james) are in lowercase, this is important) -
+Windows (n.b. 'users' and the username (in my case this is jfan) are in lowercase, this is important) -
 
 ```
 # Shared config volume
-CONFIG=/host_mnt/c/users/james/diveintoansible-lab/config
+CONFIG=/host_mnt/c/users/jfan/diveintoansible-lab/config
 
 # Shared home directories
-ANSIBLE_HOME=/host_mnt/c/users/james/diveintoansible-lab/ansible_home
+ANSIBLE_HOME=/host_mnt/c/users/jfan/diveintoansible-lab/ansible_home
 ```
 
 Linux -
 
 ```
 # Shared config volume
-CONFIG=/home/james/diveintoansible-lab/config
+CONFIG=/home/jfan/diveintoansible-lab/config
 
 # Shared home directories
-ANSIBLE_HOME=/home/james/diveintoansible-lab/ansible_home
+ANSIBLE_HOME=/home/jfan/diveintoansible-lab/ansible_home
 ```
 
 ### Running the lab
